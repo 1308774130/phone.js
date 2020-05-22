@@ -1,0 +1,8 @@
+function resize(x,y) {
+	$('html').css({
+		'width':x+'px',
+		'height':y+'px',
+        'transform': 'scale(' + document.documentElement.clientWidth / x + ')',
+        'transform-origin':'0 0'
+    })
+}
